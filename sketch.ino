@@ -4,7 +4,7 @@
 
 const char* ssid = "Wokwi-GUEST";
 
-const char* mqtt_server = "mqtt.pedalsupclients.xyz";
+const char* mqtt_server = "mqtt.server.abc"; //replce this with your mqtt server add
 const int mqtt_port = 1883;
 
 const char* clientID = "esp32_client"; // Base client ID for ESP32
@@ -13,8 +13,8 @@ const char* led2_clientID = "led2";
 const char* led3_clientID = "led3";
 const char* led4_clientID = "led4";
 
-const char* subscribe_topic = "t2";
-const char* publish_topic = "sensor_data";
+const char* subscribe_topic = "t2";  //replce this with youre pub topic
+const char* publish_topic = "sensor_data"; //replce this with youre sub topic 
 
 WiFiClient espClient;
 PubSubClient client(espClient);
