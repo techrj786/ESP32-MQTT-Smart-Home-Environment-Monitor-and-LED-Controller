@@ -32,7 +32,7 @@ This project demonstrates controlling multiple LEDs using an ESP32 microcontroll
 
 ## MQTT Commands
 
-- **LED Control:** `clientID:on:1`, `clientID:off:1`, `clientID:lightcontrol:50` (for brightness).
+- **LED Control:** `led1,on`, `led1,off`, `led1,brightnessxx` (for brightness)(xx is value of br in %).
 - **Sensor Data:** `clientID:t` (temperature), `clientID:h` (humidity), `clientID:l.s` (LED state).
 
 ## License
